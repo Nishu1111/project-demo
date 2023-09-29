@@ -1,2 +1,2 @@
 # project-demo
-##Static webpage
+Static webpage.
