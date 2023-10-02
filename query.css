@@ -1,0 +1,298 @@
+/*header*/
+@media(max-width: 985px){
+    .text-box{
+width: 60%;
+top: 25%;
+transform: translate(-50%,-50%);
+text-align: center;
+margin: auto;
+right: -35%;
+       
+    }
+    .text-box h1{
+        font-size: 34px;
+    }
+    .text-box1{
+        width:50%;
+        height:auto;
+        top:60%;
+        right:0%;
+        transform:translate(-50%,-50%);
+        text-align:center;
+}
+.paragraph{
+    
+    font-size: 16px;
+    padding: 10px 15px
+  }
+  
+  .form1{
+    padding: 7px 7px;
+margin: auto;
+height: 100px;
+width: 275px
+  }
+  
+  .heading{
+    padding: 20px 10px;
+    margin: 5px 5px;
+    font-size: 18px;
+    }
+    .text{
+        height: 20px;
+        width: 250px;
+      }
+      .btn{
+        height: 28px;
+        width: 75px;
+        text-align: center;
+    }
+    .nav-links ul li{
+        display:block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #154360;
+        height: 100vh;
+        width:200px;
+        top:0;
+        right:-500px;
+        text-align: left;
+        z-index:1;
+        transition: 1s;
+    }
+    nav .fa{
+        display:block;
+        color:#fff;
+        margin:10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+@media(max-width: 755px){
+    .text-box h1{
+        font-size: 28px;
+    }
+}
+@media(max-width: 455px){
+    .text-box h1{
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 600px){
+    .form1{
+        padding: 3px 3px;
+    height: 90px;
+    width: 200px;
+      }
+      .text{
+        height: 15px;
+        width: 175px;
+      }
+      .btn{
+        height: 20px;
+        width: 65px;
+    }
+}
+/*services*/
+@media(max-width: 1100px){
+    .services .row{
+        flex-direction: column;
+        padding: 1px 5px;
+    margin: 1px 5px;
+    }
+    .services .col{
+      margin: 5px 5px;
+  }
+  .services p{
+    margin-bottom: 0px;
+    margin:0;
+    padding: 0;
+  }
+  
+  .services .one{
+    padding: 10px;
+ }
+ .services .stng{
+    margin:10px 0px;
+    margin-top:-45px;
+  height:70px;
+  width:70px;
+  }
+}
+/*marketing*/
+@media (max-width: 600px) {
+    .marketing .row{
+       flex-direction: column;
+       
+    }
+    .marketing .col{
+        width:100%;
+        }
+}
+/*benefits*/
+@media(max-width: 900px){
+    .benefits .row{
+        flex-direction: column;
+        padding: 0px 100px;
+        margin: 0px 10px;
+     }
+     .benefits .col { 
+        padding: 50px;
+        margin:1px 10px;
+       
+      }
+      
+      .benefits h2{
+    padding: 2px;
+      }
+      .benefits h5{
+        padding: 3px;
+      }
+      .benefits p{
+        font-size: 16px;
+        padding: 20px 5px;
+      }
+      .benefits .one{
+    padding: 5px;
+      }
+   
+}
+@media(max-width: 450px){
+    .benefits .row{
+        padding: 0px 10px;
+     }
+     .benefits .col { 
+        padding: 50px;
+        margin: 1px 10px;
+       
+      }
+      .benefits h1{
+font-size: 22px;
+      }
+      .benefits h2{
+    padding: 2px;
+    font-size: 22px;
+      }
+      .benefits h5{
+        padding: 3px;
+        font-size: 14px;
+      }
+      .benefits p{
+        font-size: 12px;
+        padding: 20px 5px;
+      }
+      .benefits .one{
+    padding: 5px;
+      }
+   
+}
+/*ourteam*/
+@media(max-width: 955px){
+    .plans .row {
+        flex-direction: column;
+    }
+}
+@media(max-width: 405px){
+    .plans .row { 
+        padding: 4px;
+        margin: 10px 10px;
+        }
+        .plans .col { 
+        padding: 20px 20px;
+        margin: 2px 20px;
+    }
+    .plans img{
+        width: 70px;
+    }
+}
+/*knowmare*/
+
+@media(max-width: 1050px){
+.more .row{
+  flex-direction: column;
+}
+.more .col{
+ width:100%;
+ padding:0;
+ margin:0;
+
+}
+.more .col1 { 
+  width: 50%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.more .row1 { 
+  display:flex;
+  width: 100%;
+}
+.more h2{
+  margin: 0;
+  padding:0;
+}
+.more .p2{
+  margin: 0px;
+  width: 90%;
+  padding: 0px;
+}
+.more img{
+  width:10%;
+}
+}
+/*pre-plans*/
+
+@media(max-width: 1050px){
+   .pre-plans .row {
+            flex-direction: column;
+        }
+      
+        .pre-plans .col { 
+            width: 70%;
+            margin: 15px 40px;
+            padding: 15px 15px;
+          }
+          .pre-plans .row { 
+            padding: 10px;
+            margin:10px 10px;
+          }
+        
+    }
+    
+
+/* developer*/
+@media(max-width: 600px){
+    .developer .row {
+        flex-direction: column;
+    }
+    .developer .row{
+        padding: 10px 10px;
+        margin: 5px 10px;
+     }
+    .developer .col{
+        padding: 20px;
+        margin: 15px 15px
+    
+    }
+    
+}
+
+/*footer*/
+@media(max-width: 750px){
+  .footer .row {
+           flex-direction: column;
+       }
+       .footer .col{
+        width: 60%;
+       }
+       .footer #col1{
+        text-align:left;
+        }
+      }
+
+
