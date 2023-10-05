@@ -4,10 +4,12 @@ This is a complete responsive static webpage using HTML and CSS.
 ## Features
 <br>
 <ul>
+ <li>Simple and user-friendly.</li>
+ <li>Semantic Structure.</li>
  <li> Toggle navigation menu bar using javascript.</li>
 <li>complete responsive in every device.</li>
 <li>UI design layout.</li>
-<li>Mobile view and desktop view.</li>
+<li>Mobile view and desktop view.</li> 
 </ul>
 
 ### OUTPUT
